@@ -58,10 +58,11 @@ module.exports = {
 				'src/styles/**/*.css'
 			],
 			js  : [
-				jsSrc + '/app.js',
+				jsSrc + '/index.js',
 				//jsSrc + '/**/common-module.js',
 				jsSrc + '/**/*module.js',
 				jsSrc + '/**/*constant.js',
+				jsSrc + '/**/*component.js',
 				jsSrc + '/**/*provider.js',
 				jsSrc + '/**/*decorator.js',
 				jsSrc + '/**/*enum.js',

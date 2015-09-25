@@ -7,8 +7,8 @@ var configChmod = require('../../config').chmod;
  */
 gulp.task(
 	'chmod', function () {
-		return gulp.src('src/app/main-module/**/*.html')
+		return gulp.src('src/app/app-module/**/*.html')
 			.pipe(chmod(configChmod))
-			.pipe(gulp.dest('src/app/main-module'));
+			.pipe(gulp.dest('src/app/app-module'));
 	}
 );
