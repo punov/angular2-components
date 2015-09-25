@@ -1,6 +1,6 @@
 {
-  "version": "v4",
-  "repo": "borisyankov/DefinitelyTyped",
+  "version": "v1",
+  "repo": "punov/angular2-components",
   "ref": "master",
   "path": "typings",
   "bundle": "typings/tsd.d.ts",
