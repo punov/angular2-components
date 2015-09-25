@@ -1,0 +1,6 @@
+{
+	"debug": false,
+	"apiPath": "127.0.0.1/prod/api",
+	"maxResponseTime": 60000,
+	"ngStrictDi": true
+}

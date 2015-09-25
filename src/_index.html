@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular 2 Quickstart</title>
+	<script src="https://github.jspm.io/jmcriffey/bower-traceur-runtime@0.0.87/traceur-runtime.js"></script>
+	<script src="https://jspm.io/system@0.16.js"></script>
+	<script src="https://code.angularjs.org/2.0.0-alpha.28/angular2.dev.js"></script>
+	<!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+	<!-- build:cssLibs styles/vendor.css -->
+	<!-- bower:css -->
+	<!-- endbower -->
+	<!-- endbuild -->
+
+	<!-- build:cssSrc styles/styles.css -->
+	<!-- inject:css -->
+	<!-- endinject -->
+	<!-- endbuild -->
+
+</head>
+<body>
+
+<!--[if lt IE 8
+    <p class = "browsehappy">You are using an <strong>outdated</strong> browser. Please
+        <a href = "http://browsehappy.com/">upgrade your browser</a>
+        to improve your experience.
+    </p>
+<![endif]-->
+
+<my-app></my-app>
+
+<!-- build:jsLibs js/libs.js -->
+<!-- inject:bower:js -->
+<!-- bower:js -->
+<!-- endbower -->
+<!-- endinject -->
+<!-- endbuild -->
+
+<script>
+	window.globalConfig = {};
+</script>
+endOfGlobals
+<!-- Run application -->
+<script>System.import('tsc/app');</script>
+
+<!-- build:jsSrc js/index.js -->
+<!-- inject:js -->
+<!-- endinject -->
+<!-- endbuild -->
+
+</body>
+</html>
